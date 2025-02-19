@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add/Edit Product</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="second-section">
+        <div class="header">
+            <h1 class="heading">ADD / EDIT PRODUCT</h1>
+            <button type="submit" class="add">Save Product</button>
+        </div>
+
+        <div class="general">
+            <h3>General*</h3>
+        </div>
+
+        <div class="main-section">
+            <div class="section1">
+                <input type="file" id="imageInput" accept="image/*">
+                <img id="previewImage" src="default-image.png" alt="Add image" class="productImage"/>
+            </div>
+
+            <div class="section2">
+                <input type="hidden" id="productId">
+                <h5 class="title">Name:</h5> 
+                <input type="text" class="name" placeholder="Product Name" required/><br>
+                <h5 class="title">Quantity:</h5> 
+                <input type="text" class="quantity" placeholder="1" required/><br>
+                <h5 class="title">Description:</h5> 
+                <input type="text" class="description" placeholder="Product Description" required/><br>
+            </div>
+
+            <div class="section3">
+                <h3 class="price">Price</h3>
+                <input type="text" class="amount" placeholder="$20.00" required/>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

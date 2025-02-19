@@ -1,0 +1,86 @@
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    gap: 1080px;
+}
+.add{
+    background-color: lightskyblue;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    width: 190px;
+    border: none;
+    font-size: 17px;
+
+}
+.heading{
+    color: gray;
+}
+.general{
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.two-parts{
+    display: flex;
+    gap: 90px;
+    height: 600px;
+}
+.search{
+    width: 100px;
+    height: 40px;
+}
+.name{
+    border: none;
+    width: 350px;
+    height: 30px;
+    background-color: whitesmoke;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+.quantity{
+    border: none;
+    width: 350px;
+    height: 30px;
+    background-color: whitesmoke;
+    margin-bottom: 8px;
+}
+.description{
+    border: none;
+    width: 350px;
+    height: 30px;
+    background-color: whitesmoke;
+    margin-bottom: 8px;
+}
+.title{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: gray;
+
+}
+.amount{
+    border: none;
+    width: 350px;
+    height: 30px;
+    background-color: whitesmoke;
+    margin-bottom: 8px;
+}
+.price{
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.section{
+    background-color: lightslategray;
+
+}
